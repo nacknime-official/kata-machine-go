@@ -1,5 +1,5 @@
 # Kata Machine (Go) 
-[ThePrimeagen's kata machine](https://github.com/ThePrimeagen/kata-machine) for *true* gophers.
+[ThePrimeagen's kata machine](https://github.com/ThePrimeagen/kata-machine) for **CHAD** gophers.
 
 ## How it works
 Make sure you have [Go](https://go.dev/doc/install) installed.
