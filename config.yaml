@@ -8,4 +8,5 @@ DSA: [
     BubbleSort,
     LinearSearchList,
     MergeSort,
+    RingBuffer,
 ]
