@@ -13,6 +13,7 @@ var DSAFiles = map[string][]string{
 	"Queue":            {"Queue/Queue.go", "Queue/Queue_test.go"},
 	"Stack":            {"Stack/Stack.go", "Stack/Stack_test.go"},
 	"SinglyLinkedList": {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
+	"DoublyLinkedList": {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {

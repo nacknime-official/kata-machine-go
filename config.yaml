@@ -3,4 +3,5 @@ DSA: [
     Queue,
     Stack,
     SinglyLinkedList,
+    DoublyLinkedList,
 ]
