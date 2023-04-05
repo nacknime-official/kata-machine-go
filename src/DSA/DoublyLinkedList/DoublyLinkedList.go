@@ -7,7 +7,7 @@ type DoublyLinkedList[T any] struct {
 func (l *DoublyLinkedList[T]) Len() int { return l.length }
 
 func NewDoublyLinkedList[T any]() *DoublyLinkedList[T] {
-	return &DoublyLinkedList[T]{}
+
 }
 
 func (l *DoublyLinkedList[T]) Prepend(item T) {

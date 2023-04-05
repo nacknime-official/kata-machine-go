@@ -7,7 +7,7 @@ type SinglyLinkedList[T any] struct {
 func (l *SinglyLinkedList[T]) Len() int { return l.length }
 
 func NewSinglyLinkedList[T any]() *SinglyLinkedList[T] {
-	return &SinglyLinkedList[T]{}
+
 }
 
 func (l *SinglyLinkedList[T]) Prepend(item T) {
