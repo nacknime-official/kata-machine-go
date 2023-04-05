@@ -9,9 +9,10 @@ import (
 var DSAPath = filepath.FromSlash("src/DSA")
 
 var DSAFiles = map[string][]string{
-	"QuickSort": {"QuickSort/QuickSort.go", "QuickSort/QuickSort_test.go"},
-	"Queue":     {"Queue/Queue.go", "Queue/Queue_test.go"},
-	"Stack":     {"Stack/Stack.go", "Stack/Stack_test.go"},
+	"QuickSort":        {"QuickSort/QuickSort.go", "QuickSort/QuickSort_test.go"},
+	"Queue":            {"Queue/Queue.go", "Queue/Queue_test.go"},
+	"Stack":            {"Stack/Stack.go", "Stack/Stack_test.go"},
+	"SinglyLinkedList": {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {
