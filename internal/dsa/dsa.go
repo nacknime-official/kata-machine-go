@@ -15,6 +15,7 @@ var DSAFiles = map[string][]string{
 	"SinglyLinkedList": {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
 	"DoublyLinkedList": {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"ArrayList":        {"ArrayList/ArrayList.go", "ArrayList/ArrayList_test.go"},
+	"BubbleSort":       {"BubbleSort/BubbleSort.go", "BubbleSort/BubbleSort_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {
