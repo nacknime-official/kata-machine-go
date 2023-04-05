@@ -6,4 +6,5 @@ DSA: [
     DoublyLinkedList,
     ArrayList,
     BubbleSort,
+    LinearSearchList,
 ]
