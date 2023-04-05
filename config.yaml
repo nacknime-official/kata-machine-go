@@ -7,4 +7,5 @@ DSA: [
     ArrayList,
     BubbleSort,
     LinearSearchList,
+    MergeSort,
 ]
