@@ -19,6 +19,7 @@ var DSAFiles = map[string][]string{
 	"LinearSearchList": {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"MergeSort":        {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
 	"RingBuffer":       {"RingBuffer/RingBuffer.go", "RingBuffer/RingBuffer_test.go"},
+	"MinHeap":          {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {

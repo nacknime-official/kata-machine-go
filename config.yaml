@@ -9,4 +9,5 @@ DSA: [
     LinearSearchList,
     MergeSort,
     RingBuffer,
+    MinHeap,
 ]
