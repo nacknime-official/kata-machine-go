@@ -41,6 +41,8 @@ src/day2
 
 that will contain files with empty kata implementation and files with tests for it.
 
+BTW there is `src/DSA/helpers.go` file with some common functions/structs (e.g. `ZeroValue`), you can use them if you want to.
+
 ## Testing
 Just run `go test ./...` within a day folder if you want to run all the tests for a day.
 
