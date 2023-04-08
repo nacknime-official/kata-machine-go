@@ -52,5 +52,30 @@ Soon I will make `go run main.go test` command soon that will automatically runs
 
 ## TODO
 - [ ] Add other DSA
+    - [x] LinearSearchList
+    - [x] BubbleSort
+    - [x] SinglyLinkedList
+    - [x] DoublyLinkedList
+    - [x] Queue
+    - [x] Stack
+    - [x] ArrayList
+    - [x] QuickSort
+    - [x] MergeSort
+    - [x] MinHeap
+    - [ ] DFSOnBST
+    - [ ] LRU
+    - [ ] BinarySearchList
+    - [ ] TwoCrystalBalls
+    - [ ] MazeSolver
+    - [ ] BTPreOrder
+    - [ ] BTInOrder
+    - [ ] BTPostOrder
+    - [ ] BTBFS
+    - [ ] CompareBinaryTrees
+    - [ ] DFSOnBST
+    - [ ] DFSGraphList
+    - [ ] Trie
+    - [ ] BFSGraphMatrix
+    - [ ] Map
 - [ ] "test" command
 - [ ] Stats
