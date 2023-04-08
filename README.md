@@ -48,7 +48,7 @@ Or `go test ./QuickSort` within a day folder if you want to run only *QuickSort*
 
 Check `go help test` for more details.
 
-Soon I will make `go run main.go test` command soon that will automatically runs all the tests for the current day or that you have specified in the arguments.
+Soon I will make `go run main.go test` command that will automatically runs all the tests for the current day or that you have specified in the arguments.
 
 ## TODO
 - [ ] Add other DSA
