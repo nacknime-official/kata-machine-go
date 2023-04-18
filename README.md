@@ -1,4 +1,4 @@
-# Kata Machine (Go) 
+# Kata Machine (Go)
 [ThePrimeagen's kata machine](https://github.com/ThePrimeagen/kata-machine) for **CHAD** gophers.
 
 ## How it works
@@ -50,7 +50,15 @@ Or `go test ./QuickSort` within a day folder if you want to run only *QuickSort*
 
 Check `go help test` for more details.
 
-Soon I will make `go run main.go test` command that will automatically runs all the tests for the current day or that you have specified in the arguments.
+There is also `test` command you can use from the root folder:
+```bash
+go run main.go test             # runs all the tests for current day
+go run main.go test -day 1      # runs all the tests for day 1
+go run main.go test Queue       # runs Queue test for current day
+go run main.go test Queue Stack # runs Queue and Stack tests for current day
+go run main.go test Queue -v    # runs Queue test for current day with verbose output
+go run main.go test -- -v       # runs all the tests for current day with verbose output
+```
 
 ## TODO
 - [ ] Add other DSA
@@ -79,5 +87,5 @@ Soon I will make `go run main.go test` command that will automatically runs all 
     - [ ] Trie
     - [ ] BFSGraphMatrix
     - [ ] Map
-- [ ] "test" command
+- [x] "test" command
 - [ ] Stats
