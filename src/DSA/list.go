@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-type List[T any] interface {
+type List[T comparable] interface {
 	Len() int
 
 	Prepend(item T)

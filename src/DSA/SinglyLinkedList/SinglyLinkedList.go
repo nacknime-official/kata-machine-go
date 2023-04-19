@@ -1,12 +1,12 @@
 package singlylinkedlist
 
-type SinglyLinkedList[T any] struct {
+type SinglyLinkedList[T comparable] struct {
 	length int
 }
 
 func (l *SinglyLinkedList[T]) Len() int { return l.length }
 
-func NewSinglyLinkedList[T any]() *SinglyLinkedList[T] {
+func NewSinglyLinkedList[T comparable]() *SinglyLinkedList[T] {
 
 }
 

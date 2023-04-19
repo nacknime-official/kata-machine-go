@@ -1,12 +1,12 @@
 package doublylinkedlist
 
-type DoublyLinkedList[T any] struct {
+type DoublyLinkedList[T comparable] struct {
 	length int
 }
 
 func (l *DoublyLinkedList[T]) Len() int { return l.length }
 
-func NewDoublyLinkedList[T any]() *DoublyLinkedList[T] {
+func NewDoublyLinkedList[T comparable]() *DoublyLinkedList[T] {
 
 }
 
