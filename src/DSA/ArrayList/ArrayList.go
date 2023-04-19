@@ -1,12 +1,12 @@
 package arraylist
 
-type ArrayList[T any] struct {
+type ArrayList[T comparable] struct {
 	length int
 }
 
 func (l *ArrayList[T]) Len() int { return l.length }
 
-func NewArrayList[T any](capacity int) *ArrayList[T] {
+func NewArrayList[T comparable](capacity int) *ArrayList[T] {
 
 }
 
