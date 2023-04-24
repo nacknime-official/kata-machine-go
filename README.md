@@ -88,4 +88,5 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
     - [ ] BFSGraphMatrix
     - [ ] Map
 - [x] "test" command
+- [ ] "test" command (pattern matching)
 - [ ] Stats
