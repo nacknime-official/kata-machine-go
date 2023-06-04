@@ -96,6 +96,9 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [ ] LRU
   - [ ] Map
   - [ ] DijkstraList
+  - [ ] InsertionSort
+  - [ ] PrismList
+  - [ ] RingBuffer
 - [x] "test" command
 - [ ] "test" command (pattern matching)
 - [ ] Stats
