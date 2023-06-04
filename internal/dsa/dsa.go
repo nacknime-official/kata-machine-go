@@ -24,6 +24,7 @@ var DSAFiles = map[string][]string{
 	"BinarySearchList": {"BinarySearchList/BinarySearchList.go", "BinarySearchList/BinarySearchList_test.go"},
 	"MazeSolver":       {"MazeSolver/MazeSolver.go", "MazeSolver/MazeSolver_test.go"},
 	"Trie":             {"Trie/Trie.go", "Trie/Trie_test.go"},
+	"DFSOnBST":         {"DFSOnBST/DFSOnBST.go", "DFSOnBST/DFSOnBST_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {

@@ -15,4 +15,5 @@ DSA:
     BinarySearchList,
     MazeSolver,
     Trie,
+    DFSOnBST,
   ]
