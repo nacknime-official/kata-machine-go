@@ -1,10 +1,5 @@
 package dfsgraphlist
 
-type GraphEdge struct {
-	To     int
-	Weight int
-}
+import dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
 
-type WeightedAdjacencyList [][]GraphEdge
-
-func Dfs(graph WeightedAdjacencyList, source int, needle int) []int {}
+func Dfs(graph dsa.WeightedAdjacencyList, source int, needle int) []int {}

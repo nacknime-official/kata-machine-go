@@ -1,9 +1,5 @@
 package btpreorder
 
-type BinaryNode struct {
-	Value int
-	Right *BinaryNode
-	Left  *BinaryNode
-}
+import dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
 
-func PreOrderSearch(head *BinaryNode) []int {}
+func PreOrderSearch(head *dsa.BinaryNode[int]) []int {}

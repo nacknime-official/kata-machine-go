@@ -1,9 +1,5 @@
 package dfsonbst
 
-type BinaryNode struct {
-	Value int
-	Right *BinaryNode
-	Left  *BinaryNode
-}
+import dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
 
-func Dfs(head *BinaryNode, needle int) bool {}
+func Dfs(head *dsa.BinaryNode[int], needle int) bool {}

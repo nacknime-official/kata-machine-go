@@ -1,9 +1,13 @@
 package bfsgraphmatrix
 
-import "testing"
+import (
+	"testing"
+
+	dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
+)
 
 func TestBfs(t *testing.T) {
-	matrix2 := WeightedAdjacencyMatrix{
+	matrix2 := dsa.WeightedAdjacencyMatrix{
 		{0, 3, 1, 0, 0, 0, 0},
 		{0, 0, 0, 0, 1, 0, 0},
 		{0, 0, 7, 0, 0, 0, 0},
@@ -23,7 +27,7 @@ func TestBfs(t *testing.T) {
 
 	result := Bfs(matrix2, 0, 6)
 
-	if !arraysEqual(expected, result) {
+	if !dsa.ArraysEqual(expected, result) {
 		t.Errorf("Expected result: %v, got: %v", expected, result)
 	}
 
@@ -31,18 +35,4 @@ func TestBfs(t *testing.T) {
 	if result != nil {
 		t.Errorf("Expected result: nil, got: %v", result)
 	}
-}
-
-func arraysEqual(a, b []int) bool {
-	if len(a) != len(b) {
-		return false
-	}
-
-	for i := 0; i < len(a); i++ {
-		if a[i] != b[i] {
-			return false
-		}
-	}
-
-	return true
 }

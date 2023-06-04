@@ -1,41 +1,45 @@
 package btpreorder
 
-import "testing"
+import (
+	"testing"
+
+	dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
+)
 
 func TestPostOrder(t *testing.T) {
-	tree := &BinaryNode{
+	tree := &dsa.BinaryNode[int]{
 		Value: 20,
-		Right: &BinaryNode{
+		Right: &dsa.BinaryNode[int]{
 			Value: 50,
-			Right: &BinaryNode{
+			Right: &dsa.BinaryNode[int]{
 				Value: 100,
 				Right: nil,
 				Left:  nil,
 			},
-			Left: &BinaryNode{
+			Left: &dsa.BinaryNode[int]{
 				Value: 30,
-				Right: &BinaryNode{
+				Right: &dsa.BinaryNode[int]{
 					Value: 45,
 					Right: nil,
 					Left:  nil,
 				},
-				Left: &BinaryNode{
+				Left: &dsa.BinaryNode[int]{
 					Value: 29,
 					Right: nil,
 					Left:  nil,
 				},
 			},
 		},
-		Left: &BinaryNode{
+		Left: &dsa.BinaryNode[int]{
 			Value: 10,
-			Right: &BinaryNode{
+			Right: &dsa.BinaryNode[int]{
 				Value: 15,
 				Right: nil,
 				Left:  nil,
 			},
-			Left: &BinaryNode{
+			Left: &dsa.BinaryNode[int]{
 				Value: 5,
-				Right: &BinaryNode{
+				Right: &dsa.BinaryNode[int]{
 					Value: 7,
 					Right: nil,
 					Left:  nil,
@@ -60,21 +64,7 @@ func TestPostOrder(t *testing.T) {
 
 	result := PostOrderSearch(tree)
 
-	if !arraysEqual(expected, result) {
+	if !dsa.ArraysEqual(expected, result) {
 		t.Errorf("Expected result: %v, got: %v", expected, result)
 	}
-}
-
-func arraysEqual(a, b []int) bool {
-	if len(a) != len(b) {
-		return false
-	}
-
-	for i := 0; i < len(a); i++ {
-		if a[i] != b[i] {
-			return false
-		}
-	}
-
-	return true
 }

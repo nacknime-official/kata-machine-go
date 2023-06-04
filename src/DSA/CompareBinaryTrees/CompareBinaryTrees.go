@@ -1,9 +1,5 @@
 package comparebinarytrees
 
-type BinaryNode struct {
-	Value int
-	Right *BinaryNode
-	Left  *BinaryNode
-}
+import dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
 
-func Compare(a *BinaryNode, b *BinaryNode) bool {}
+func Compare(a *dsa.BinaryNode[int], b *dsa.BinaryNode[int]) bool {}
