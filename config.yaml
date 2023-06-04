@@ -12,4 +12,5 @@ DSA:
     RingBuffer,
     MinHeap,
     TwoCrystalBalls,
+    BinarySearch,
   ]

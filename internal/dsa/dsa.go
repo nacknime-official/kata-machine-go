@@ -21,6 +21,7 @@ var DSAFiles = map[string][]string{
 	"RingBuffer":       {"RingBuffer/RingBuffer.go", "RingBuffer/RingBuffer_test.go"},
 	"MinHeap":          {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
 	"TwoCrystalBalls":  {"TwoCrystalBalls/TwoCrystalBalls.go", "TwoCrystalBalls/TwoCrystalBalls_test.go"},
+	"BinarySearch":     {"BinarySearch/BinarySearch.go", "BinarySearch/BinarySearch_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {
