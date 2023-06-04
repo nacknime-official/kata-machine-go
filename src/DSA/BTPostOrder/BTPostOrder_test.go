@@ -46,16 +46,16 @@ func TestPostOrder(t *testing.T) {
 	}
 
 	expected := []int{
-		20,
-		10,
-		5,
 		7,
+		5,
 		15,
-		50,
-		30,
+		10,
 		29,
 		45,
+		30,
 		100,
+		50,
+		20,
 	}
 
 	result := PostOrderSearch(tree)
