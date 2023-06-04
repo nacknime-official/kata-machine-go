@@ -87,8 +87,8 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] Trie
   - [x] DFSOnBST
   - [x] BTBFS
+  - [x] BTPreOrder
   - [ ] LRU
-  - [ ] BTPreOrder
   - [ ] BTInOrder
   - [ ] BTPostOrder
   - [ ] CompareBinaryTrees
