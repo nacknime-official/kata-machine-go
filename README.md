@@ -92,8 +92,8 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] BTInOrder
   - [x] CompareBinaryTrees
   - [x] DFSGraphList
+  - [x] BFSGraphMatrix
   - [ ] LRU
-  - [ ] BFSGraphMatrix
   - [ ] Map
 - [x] "test" command
 - [ ] "test" command (pattern matching)

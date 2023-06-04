@@ -22,4 +22,5 @@ DSA:
     BTInOrder,
     CompareBinaryTrees,
     DFSGraphList,
+    BFSGraphMatrix,
   ]
