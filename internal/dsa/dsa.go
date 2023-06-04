@@ -28,6 +28,7 @@ var DSAFiles = map[string][]string{
 	"BTBFS":            {"BTBFS/BTBFS.go", "BTBFS/BTBFS_test.go"},
 	"BTPreOrder":       {"BTPreOrder/BTPreOrder.go", "BTPreOrder/BTPreOrder_test.go"},
 	"BTPostOrder":      {"BTPostOrder/BTPostOrder.go", "BTPostOrder/BTPostOrder_test.go"},
+	"BTInOrder":        {"BTInOrder/BTInOrder.go", "BTInOrder/BTInOrder_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {
