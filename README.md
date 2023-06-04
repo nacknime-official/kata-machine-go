@@ -95,6 +95,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] BFSGraphMatrix
   - [ ] LRU
   - [ ] Map
+  - [ ] DijkstraList
 - [x] "test" command
 - [ ] "test" command (pattern matching)
 - [ ] Stats
