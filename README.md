@@ -71,34 +71,34 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
 ## TODO
 
 - [ ] Add other DSA
-  - [x] LinearSearchList
-  - [x] BubbleSort
-  - [x] SinglyLinkedList
-  - [x] DoublyLinkedList
-  - [x] Queue
-  - [x] Stack
   - [x] ArrayList
-  - [x] QuickSort
-  - [x] MergeSort
-  - [x] MinHeap
-  - [x] TwoCrystalBalls
+  - [x] BFSGraphMatrix
   - [x] BinarySearchList
-  - [x] MazeSolver
-  - [x] Trie
-  - [x] DFSOnBST
   - [x] BTBFS
-  - [x] BTPreOrder
-  - [x] BTPostOrder
   - [x] BTInOrder
+  - [x] BTPostOrder
+  - [x] BTPreOrder
+  - [x] BubbleSort
   - [x] CompareBinaryTrees
   - [x] DFSGraphList
-  - [x] BFSGraphMatrix
-  - [ ] LRU
-  - [ ] Map
+  - [x] DFSOnBST
+  - [x] DoublyLinkedList
+  - [x] LinearSearchList
+  - [x] MazeSolver
+  - [x] MergeSort
+  - [x] MinHeap
+  - [x] Queue
+  - [x] QuickSort
+  - [x] RingBuffer
+  - [x] SinglyLinkedList
+  - [x] Stack
+  - [x] Trie
+  - [x] TwoCrystalBalls
   - [ ] DijkstraList
   - [ ] InsertionSort
+  - [ ] LRU
+  - [ ] Map
   - [ ] PrismList
-  - [ ] RingBuffer
 - [x] "test" command
 - [ ] "test" command (pattern matching)
 - [ ] Stats
