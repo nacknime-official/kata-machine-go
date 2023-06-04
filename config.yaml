@@ -21,4 +21,5 @@ DSA:
     BTPostOrder,
     BTInOrder,
     CompareBinaryTrees,
+    DFSGraphList,
   ]
