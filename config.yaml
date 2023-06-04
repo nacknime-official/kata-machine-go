@@ -16,4 +16,5 @@ DSA:
     MazeSolver,
     Trie,
     DFSOnBST,
+    BTBFS,
   ]
