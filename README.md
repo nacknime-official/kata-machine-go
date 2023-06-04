@@ -84,6 +84,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] DFSOnBST
   - [x] DijkstraList
   - [x] DoublyLinkedList
+  - [x] InsertionSort
   - [x] LinearSearchList
   - [x] MazeSolver
   - [x] MergeSort
@@ -95,7 +96,6 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] Stack
   - [x] Trie
   - [x] TwoCrystalBalls
-  - [ ] InsertionSort
   - [ ] LRU
   - [ ] Map
   - [ ] PrimsList
