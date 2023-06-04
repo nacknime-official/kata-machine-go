@@ -20,4 +20,5 @@ DSA:
     BTPreOrder,
     BTPostOrder,
     BTInOrder,
+    CompareBinaryTrees,
   ]

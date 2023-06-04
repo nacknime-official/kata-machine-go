@@ -90,8 +90,8 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] BTPreOrder
   - [x] BTPostOrder
   - [x] BTInOrder
+  - [x] CompareBinaryTrees
   - [ ] LRU
-  - [ ] CompareBinaryTrees
   - [ ] DFSOnBST
   - [ ] DFSGraphList
   - [ ] BFSGraphMatrix
