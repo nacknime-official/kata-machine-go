@@ -13,4 +13,5 @@ DSA:
     MinHeap,
     TwoCrystalBalls,
     BinarySearchList,
+    MazeSolver,
   ]

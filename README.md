@@ -83,9 +83,9 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] MinHeap
   - [x] TwoCrystalBalls
   - [x] BinarySearchList
+  - [x] MazeSolver
   - [ ] DFSOnBST
   - [ ] LRU
-  - [ ] MazeSolver
   - [ ] BTPreOrder
   - [ ] BTInOrder
   - [ ] BTPostOrder
