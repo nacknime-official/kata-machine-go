@@ -84,6 +84,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] TwoCrystalBalls
   - [x] BinarySearchList
   - [x] MazeSolver
+  - [x] Trie
   - [ ] DFSOnBST
   - [ ] LRU
   - [ ] BTPreOrder
@@ -93,7 +94,6 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [ ] CompareBinaryTrees
   - [ ] DFSOnBST
   - [ ] DFSGraphList
-  - [ ] Trie
   - [ ] BFSGraphMatrix
   - [ ] Map
 - [x] "test" command
