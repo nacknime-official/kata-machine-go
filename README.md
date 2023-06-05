@@ -74,7 +74,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] ArrayList
   - [x] BFSGraphList
   - [x] BFSGraphMatrix
-  - [ ] BinarySearchList
+  - [x] BinarySearchList
   - [ ] BTBFS
   - [ ] BTInOrder
   - [ ] BTPostOrder
