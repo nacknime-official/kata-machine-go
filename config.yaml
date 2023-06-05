@@ -12,6 +12,7 @@ DSA:
     CompareBinaryTrees,
     DFSGraphList,
     DFSOnBST,
+    DijkstraList,
     DoublyLinkedList,
     LinearSearchList,
     MergeSort,

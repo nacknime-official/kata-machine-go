@@ -21,6 +21,7 @@ var DSAFiles = map[string][]string{
 	"CompareBinaryTrees": {"CompareBinaryTrees/CompareBinaryTrees.go", "CompareBinaryTrees/CompareBinaryTrees_test.go"},
 	"DFSGraphList":       {"DFSGraphList/DFSGraphList.go", "DFSGraphList/DFSGraphList_test.go"},
 	"DFSOnBST":           {"DFSOnBST/DFSOnBST.go", "DFSOnBST/DFSOnBST_test.go"},
+	"DijkstraList":       {"DijkstraList/DijkstraList.go", "DijkstraList/DijkstraList_test.go"},
 	"DoublyLinkedList":   {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"LinearSearchList":   {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"MergeSort":          {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
