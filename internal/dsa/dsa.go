@@ -13,6 +13,7 @@ var DSAFiles = map[string][]string{
 	"BFSGraphList":     {"BFSGraphList/BFSGraphList.go", "BFSGraphList/BFSGraphList_test.go"},
 	"BFSGraphMatrix":   {"BFSGraphMatrix/BFSGraphMatrix.go", "BFSGraphMatrix/BFSGraphMatrix_test.go"},
 	"BinarySearchList": {"BinarySearchList/BinarySearchList.go", "BinarySearchList/BinarySearchList_test.go"},
+	"BTBFS":            {"BTBFS/BTBFS.go", "BTBFS/BTBFS_test.go"},
 	"BubbleSort":       {"BubbleSort/BubbleSort.go", "BubbleSort/BubbleSort_test.go"},
 	"DoublyLinkedList": {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"LinearSearchList": {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
