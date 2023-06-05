@@ -9,6 +9,7 @@ DSA:
     BTPostOrder,
     BTPreOrder,
     BubbleSort,
+    CompareBinaryTrees,
     DoublyLinkedList,
     LinearSearchList,
     MergeSort,

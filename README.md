@@ -80,7 +80,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] BTPostOrder
   - [x] BTPreOrder
   - [x] BubbleSort
-  - [ ] CompareBinaryTrees
+  - [x] CompareBinaryTrees
   - [ ] DFSGraphList
   - [ ] DFSOnBST
   - [ ] DijkstraList
