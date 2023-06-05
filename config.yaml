@@ -1,13 +1,14 @@
-DSA: [
-    QuickSort,
-    Queue,
-    Stack,
-    SinglyLinkedList,
-    DoublyLinkedList,
+DSA:
+  [
     ArrayList,
     BubbleSort,
+    DoublyLinkedList,
     LinearSearchList,
     MergeSort,
-    RingBuffer,
     MinHeap,
-]
+    Queue,
+    QuickSort,
+    RingBuffer,
+    SinglyLinkedList,
+    Stack,
+  ]

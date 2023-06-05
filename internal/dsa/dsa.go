@@ -9,17 +9,17 @@ import (
 var DSAPath = filepath.FromSlash("src/DSA")
 
 var DSAFiles = map[string][]string{
-	"QuickSort":        {"QuickSort/QuickSort.go", "QuickSort/QuickSort_test.go"},
-	"Queue":            {"Queue/Queue.go", "Queue/Queue_test.go"},
-	"Stack":            {"Stack/Stack.go", "Stack/Stack_test.go"},
-	"SinglyLinkedList": {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
-	"DoublyLinkedList": {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"ArrayList":        {"ArrayList/ArrayList.go", "ArrayList/ArrayList_test.go"},
 	"BubbleSort":       {"BubbleSort/BubbleSort.go", "BubbleSort/BubbleSort_test.go"},
+	"DoublyLinkedList": {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"LinearSearchList": {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"MergeSort":        {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
-	"RingBuffer":       {"RingBuffer/RingBuffer.go", "RingBuffer/RingBuffer_test.go"},
 	"MinHeap":          {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
+	"Queue":            {"Queue/Queue.go", "Queue/Queue_test.go"},
+	"QuickSort":        {"QuickSort/QuickSort.go", "QuickSort/QuickSort_test.go"},
+	"RingBuffer":       {"RingBuffer/RingBuffer.go", "RingBuffer/RingBuffer_test.go"},
+	"SinglyLinkedList": {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
+	"Stack":            {"Stack/Stack.go", "Stack/Stack_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {
