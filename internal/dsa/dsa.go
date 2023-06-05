@@ -30,6 +30,7 @@ var DSAFiles = map[string][]string{
 	"MazeSolver":         {"MazeSolver/MazeSolver.go", "MazeSolver/MazeSolver_test.go"},
 	"MergeSort":          {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
 	"MinHeap":            {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
+	"PrimsList":          {"PrimsList/PrimsList.go", "PrimsList/PrimsList_test.go"},
 	"Queue":              {"Queue/Queue.go", "Queue/Queue_test.go"},
 	"QuickSort":          {"QuickSort/QuickSort.go", "QuickSort/QuickSort_test.go"},
 	"RingBuffer":         {"RingBuffer/RingBuffer.go", "RingBuffer/RingBuffer_test.go"},

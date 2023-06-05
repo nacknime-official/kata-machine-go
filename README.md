@@ -92,7 +92,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] MazeSolver
   - [x] MergeSort
   - [x] MinHeap
-  - [ ] PrimsList
+  - [x] PrimsList
   - [x] Queue
   - [x] QuickSort
   - [x] RingBuffer

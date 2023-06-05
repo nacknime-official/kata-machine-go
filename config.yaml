@@ -21,6 +21,7 @@ DSA:
     MazeSolver,
     MergeSort,
     MinHeap,
+    PrimsList,
     Queue,
     QuickSort,
     RingBuffer,
