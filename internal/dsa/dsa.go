@@ -37,6 +37,7 @@ var DSAFiles = map[string][]string{
 	"SinglyLinkedList":   {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
 	"Stack":              {"Stack/Stack.go", "Stack/Stack_test.go"},
 	"Trie":               {"Trie/Trie.go", "Trie/Trie_test.go"},
+	"TwoCrystalBalls":    {"TwoCrystalBalls/TwoCrystalBalls.go", "TwoCrystalBalls/TwoCrystalBalls_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {

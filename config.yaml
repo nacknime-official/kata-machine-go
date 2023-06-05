@@ -28,4 +28,5 @@ DSA:
     SinglyLinkedList,
     Stack,
     Trie,
+    TwoCrystalBalls,
   ]

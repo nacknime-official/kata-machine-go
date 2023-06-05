@@ -99,7 +99,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] SinglyLinkedList
   - [x] Stack
   - [x] Trie
-  - [ ] TwoCrystalBalls
+  - [x] TwoCrystalBalls
 - [x] "test" command
 - [ ] "test" command (pattern matching)
 - [ ] Stats
