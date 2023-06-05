@@ -27,4 +27,5 @@ DSA:
     RingBuffer,
     SinglyLinkedList,
     Stack,
+    Trie,
   ]

@@ -36,6 +36,7 @@ var DSAFiles = map[string][]string{
 	"RingBuffer":         {"RingBuffer/RingBuffer.go", "RingBuffer/RingBuffer_test.go"},
 	"SinglyLinkedList":   {"SinglyLinkedList/SinglyLinkedList.go", "SinglyLinkedList/SinglyLinkedList_test.go"},
 	"Stack":              {"Stack/Stack.go", "Stack/Stack_test.go"},
+	"Trie":               {"Trie/Trie.go", "Trie/Trie_test.go"},
 }
 
 func Copy(dsa string, dstDir string) error {
