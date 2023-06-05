@@ -26,6 +26,7 @@ var DSAFiles = map[string][]string{
 	"InsertionSort":      {"InsertionSort/InsertionSort.go", "InsertionSort/InsertionSort_test.go"},
 	"LinearSearchList":   {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"LRU":                {"LRU/LRU.go", "LRU/LRU_test.go"},
+	"Map":                {"Map/Map.go", "Map/Map_test.go"},
 	"MergeSort":          {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
 	"MinHeap":            {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
 	"Queue":              {"Queue/Queue.go", "Queue/Queue_test.go"},

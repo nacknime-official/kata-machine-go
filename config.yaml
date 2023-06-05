@@ -17,6 +17,7 @@ DSA:
     InsertionSort,
     LinearSearchList,
     LRU,
+    Map,
     MergeSort,
     MinHeap,
     Queue,
