@@ -10,6 +10,7 @@ DSA:
     BTPreOrder,
     BubbleSort,
     CompareBinaryTrees,
+    DFSGraphList,
     DoublyLinkedList,
     LinearSearchList,
     MergeSort,

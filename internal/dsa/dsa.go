@@ -19,6 +19,7 @@ var DSAFiles = map[string][]string{
 	"BTPreOrder":         {"BTPreOrder/BTPreOrder.go", "BTPreOrder/BTPreOrder_test.go"},
 	"BubbleSort":         {"BubbleSort/BubbleSort.go", "BubbleSort/BubbleSort_test.go"},
 	"CompareBinaryTrees": {"CompareBinaryTrees/CompareBinaryTrees.go", "CompareBinaryTrees/CompareBinaryTrees_test.go"},
+	"DFSGraphList":       {"DFSGraphList/DFSGraphList.go", "DFSGraphList/DFSGraphList_test.go"},
 	"DoublyLinkedList":   {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"LinearSearchList":   {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"MergeSort":          {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
