@@ -72,8 +72,8 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
 
 - [ ] Add other DSA
   - [x] ArrayList
-  - [ ] BFSGraphMatrix
-  - [ ] BFSGraphList
+  - [x] BFSGraphList
+  - [x] BFSGraphMatrix
   - [ ] BinarySearchList
   - [ ] BTBFS
   - [ ] BTInOrder

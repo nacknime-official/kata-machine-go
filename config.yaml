@@ -1,6 +1,8 @@
 DSA:
   [
     ArrayList,
+    BFSGraphList,
+    BFSGraphMatrix,
     BubbleSort,
     DoublyLinkedList,
     LinearSearchList,

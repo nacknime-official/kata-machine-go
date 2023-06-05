@@ -10,6 +10,8 @@ var DSAPath = filepath.FromSlash("src/DSA")
 
 var DSAFiles = map[string][]string{
 	"ArrayList":        {"ArrayList/ArrayList.go", "ArrayList/ArrayList_test.go"},
+	"BFSGraphList":     {"BFSGraphList/BFSGraphList.go", "BFSGraphList/BFSGraphList_test.go"},
+	"BFSGraphMatrix":   {"BFSGraphMatrix/BFSGraphMatrix.go", "BFSGraphMatrix/BFSGraphMatrix_test.go"},
 	"BubbleSort":       {"BubbleSort/BubbleSort.go", "BubbleSort/BubbleSort_test.go"},
 	"DoublyLinkedList": {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
 	"LinearSearchList": {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
