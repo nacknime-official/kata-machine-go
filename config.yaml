@@ -18,6 +18,7 @@ DSA:
     LinearSearchList,
     LRU,
     Map,
+    MazeSolver,
     MergeSort,
     MinHeap,
     Queue,

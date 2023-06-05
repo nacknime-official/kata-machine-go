@@ -89,7 +89,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] LinearSearchList
   - [x] LRU
   - [x] Map
-  - [ ] MazeSolver
+  - [x] MazeSolver
   - [x] MergeSort
   - [x] MinHeap
   - [ ] PrimsList

@@ -27,6 +27,7 @@ var DSAFiles = map[string][]string{
 	"LinearSearchList":   {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"LRU":                {"LRU/LRU.go", "LRU/LRU_test.go"},
 	"Map":                {"Map/Map.go", "Map/Map_test.go"},
+	"MazeSolver":         {"MazeSolver/MazeSolver.go", "MazeSolver/MazeSolver_test.go"},
 	"MergeSort":          {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
 	"MinHeap":            {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
 	"Queue":              {"Queue/Queue.go", "Queue/Queue_test.go"},
