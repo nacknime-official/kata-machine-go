@@ -23,6 +23,7 @@ var DSAFiles = map[string][]string{
 	"DFSOnBST":           {"DFSOnBST/DFSOnBST.go", "DFSOnBST/DFSOnBST_test.go"},
 	"DijkstraList":       {"DijkstraList/DijkstraList.go", "DijkstraList/DijkstraList_test.go"},
 	"DoublyLinkedList":   {"DoublyLinkedList/DoublyLinkedList.go", "DoublyLinkedList/DoublyLinkedList_test.go"},
+	"InsertionSort":      {"InsertionSort/InsertionSort.go", "InsertionSort/InsertionSort_test.go"},
 	"LinearSearchList":   {"LinearSearchList/LinearSearchList.go", "LinearSearchList/LinearSearchList_test.go"},
 	"MergeSort":          {"MergeSort/MergeSort.go", "MergeSort/MergeSort_test.go"},
 	"MinHeap":            {"MinHeap/MinHeap.go", "MinHeap/MinHeap_test.go"},
