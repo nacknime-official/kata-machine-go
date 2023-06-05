@@ -16,6 +16,7 @@ DSA:
     DoublyLinkedList,
     InsertionSort,
     LinearSearchList,
+    LRU,
     MergeSort,
     MinHeap,
     Queue,

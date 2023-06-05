@@ -87,7 +87,7 @@ go run main.go test -- -v       # runs all the tests for current day with verbos
   - [x] DoublyLinkedList
   - [x] InsertionSort
   - [x] LinearSearchList
-  - [ ] LRU
+  - [x] LRU
   - [ ] Map
   - [ ] MazeSolver
   - [x] MergeSort
