@@ -22,9 +22,7 @@ func TestTwoCrystalBalls(t *testing.T) {
 	assert.Equal(t, idx, result, "Expected: %v, got: %v", idx, result)
 
 	data = make([]bool, 821)
-	for i := 0; i < 821; i++ {
-		data[i] = false
-	}
+
 	result = TwoCrystalBalls(data)
 	assert.Equal(t, -1, result, "Expected: -1, got: %v", result)
 }
