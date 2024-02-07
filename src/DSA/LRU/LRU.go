@@ -12,5 +12,5 @@ func NewLRU[K comparable, V comparable](capacity int) *LRU[K, V] {
 func (l *LRU[K, V]) Update(key K, value V) {
 }
 
-func (l *LRU[K, V]) Get(key K) V {
+func (l *LRU[K, V]) Get(key K) (V, bool) {
 }

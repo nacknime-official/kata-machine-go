@@ -3,8 +3,9 @@ package mazesolver
 import (
 	"testing"
 
-	dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
 	"github.com/stretchr/testify/assert"
+
+	dsa "github.com/nacknime-official/kata-machine-go/src/DSA"
 )
 
 func TestSolve(t *testing.T) {
@@ -36,4 +37,24 @@ func TestSolve(t *testing.T) {
 
 	result := Solve(maze, "x", dsa.Point{X: 10, Y: 0}, dsa.Point{X: 1, Y: 5})
 	assert.Equal(t, expected, result, "Expected: %v, got: %v", expected, result)
+	expectedPath := drawPath(maze, expected)
+	actualPath := drawPath(maze, result)
+	assert.Equal(t, expectedPath, actualPath, "Expected: %v, got: %v", expectedPath, actualPath)
+}
+
+func drawPath(data []string, path []dsa.Point) []string {
+	var data2 [][]rune
+	for _, row := range data {
+		data2 = append(data2, []rune(row))
+	}
+	for _, p := range path {
+		if p.Y < len(data2) && p.X < len(data2[p.Y]) {
+			data2[p.Y][p.X] = '*'
+		}
+	}
+	var result []string
+	for _, d := range data2 {
+		result = append(result, string(d))
+	}
+	return result
 }

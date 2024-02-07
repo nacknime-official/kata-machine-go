@@ -1,6 +1,7 @@
 package trie
 
 import (
+	"sort"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -15,6 +16,10 @@ func TestTrie(t *testing.T) {
 	trie.Insert("bar")
 
 	result := trie.Find("fo")
+	sort.Strings(result)
+	// If bumping to go 1.21
+	// slices.Sort(result)
+
 	expected := []string{
 		"foo",
 		"fool",
@@ -23,6 +28,11 @@ func TestTrie(t *testing.T) {
 	assert.Equal(t, expected, result, "Expected: %v, got: %v", expected, result)
 
 	trie.Delete("fool")
+	result = trie.Find("fo")
+	sort.Strings(result)
+	// If bumping to go 1.21
+	// slices.Sort(result)
+
 	expected = []string{
 		"foo",
 		"fool",

@@ -13,10 +13,7 @@ func TestTwoCrystalBalls(t *testing.T) {
 
 	idx := rand.Intn(10001)
 
-	data := []bool{}
-	for i := 0; i < 10000; i++ {
-		data[i] = false
-	}
+	data := make([]bool, 10000)
 
 	for i := idx; i < len(data); i++ {
 		data[i] = true
@@ -24,7 +21,7 @@ func TestTwoCrystalBalls(t *testing.T) {
 	result := TwoCrystalBalls(data)
 	assert.Equal(t, idx, result, "Expected: %v, got: %v", idx, result)
 
-	data = []bool{}
+	data = make([]bool, 821)
 	for i := 0; i < 821; i++ {
 		data[i] = false
 	}
